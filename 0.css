@@ -43,5 +43,26 @@ nav{
     }
 }
 .header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 70px;
 
+}
+h1{
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    max-width: 650px;
+    text-align: center;
+    display: flex;
+    line-height: 30px;
+     font-size: 20px;
 }
