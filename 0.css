@@ -2,3 +2,40 @@
     box-sizing: border-box;
     
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav_2{
+    display: flex;
+    padding: 0 20px;
+
+
+}
+
+.nav_2 li {
+    display: flex;
+}
+.nav_2 li a {
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.nav_1{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+@media(max-width:700px){
+    nav{
+        flex-direction: column;
+    }
+    .nav_2{
+        flex-direction: column;
+    }
+}
