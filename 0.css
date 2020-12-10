@@ -51,6 +51,7 @@ nav{
      justify-content: center;
      margin-top: 70px;
 
+
 }
 h1{
     font-weight: 500;
@@ -74,6 +75,7 @@ p{
     justify-content: space-evenly;
     
     
+    
 }
 .card{
     box-shadow: 0 0 10px 0;
@@ -88,6 +90,8 @@ p{
         flex-direction: column;
         flex-basis: calc(18% - 15px);
         border-radius: 5px;
+        
+        width: 60%;
         
     }
 }
@@ -171,10 +175,23 @@ button{
 .bloc{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .list-unstyled{
     display: flex;
      flex-direction: column;
      justify-content: center;
 }
-
+h5{
+  position: relative;
+  left: 40px;  
+}
+.list-unstyled{
+   display: flex; 
+   text-decoration: none;
+}
+.text-muted{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
