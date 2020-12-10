@@ -8,6 +8,9 @@ nav{
     align-items: center;
     width: 100%;
     box-shadow: 0 0 10px 0;
+    position: fixed;
+    top: 0;
+    margin-bottom: 50px;
 }
 .nav_2{
     display: flex;
@@ -69,30 +72,109 @@ p{
 .conteiner{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    
+    
 }
 .card{
     box-shadow: 0 0 10px 0;
       flex-basis: calc(18% - 15px);
     border-radius: 5px;
     margin: 8px;
-     flex: 1 1 250px;
+     
 }
 @media(max-width:700px){
     
     .conteiner{
         flex-direction: column;
+        flex-basis: calc(18% - 15px);
+        border-radius: 5px;
+        
     }
 }
-.header{
+.header_1{
     display: flex;
     justify-content: center;
-    margin-top: -10px;
-    
+    box-shadow: 0 0.5px;
+      margin-top: -5px;
 }
 h3{
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 0 0.5px;
     padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+   
 }
+h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.h2{
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.mo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.ul .li{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+button{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.button_1{
+    background-colorh: hsl(var(--hue-button_1),100%);
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.button_2{
+ background-color: rgb(70, 70, 145);
+}
+:root{
+    --hue-button_1:0;
+    --hue-button_2:115;
+    --hue--button_3:224
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.move{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bloc{
+    display: flex;
+    flex-direction: column;
+}
+.list-unstyled{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
