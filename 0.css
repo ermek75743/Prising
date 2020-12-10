@@ -66,3 +66,33 @@ p{
     line-height: 30px;
      font-size: 20px;
 }
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card{
+    box-shadow: 0 0 10px 0;
+      flex-basis: calc(18% - 15px);
+    border-radius: 5px;
+    margin: 8px;
+     flex: 1 1 250px;
+}
+@media(max-width:700px){
+    
+    .conteiner{
+        flex-direction: column;
+    }
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    
+}
+h3{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0.5px;
+    padding-top: 10px;
+}
