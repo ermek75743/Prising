@@ -8,9 +8,10 @@ nav{
     align-items: center;
     width: 100%;
     box-shadow: 0 0 10px 0;
-    position: fixed;
+    position: sticky;
     top: 0;
     margin-bottom: 50px;
+    margin: 0;
 }
 .nav_2{
     display: flex;
@@ -49,10 +50,12 @@ nav{
      display: flex;
      flex-direction: column;
      justify-content: center;
-     margin-top: 70px;
+     margin-top: 150px;
+     margin-bottom: 150px;
 
 
 }
+
 h1{
     font-weight: 500;
     font-size: 35px;
@@ -82,13 +85,16 @@ p{
       flex-basis: calc(18% - 15px);
     border-radius: 5px;
     margin: 8px;
+    display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
      
 }
 @media(max-width:700px){
     
     .conteiner{
         flex-direction: column;
-        flex-basis: calc(18% - 15px);
+        
         border-radius: 5px;
         
         width: 60%;
